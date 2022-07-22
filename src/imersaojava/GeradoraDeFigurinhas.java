@@ -38,7 +38,7 @@ public class GeradoraDeFigurinhas {
         
         
         //Escrever uma frase na nova imagem
-        graphics.drawString("SUCESSO PAE", largura/5, NovaAltura-100);
+        graphics.drawString("TEXTO", largura/5, NovaAltura-100);
         
         
         //escrever a imagem nova em um arquivo
