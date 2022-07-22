@@ -7,10 +7,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-/**
- *
- * @author Felkng
- */
 public class clientHTTP {
     
     public String dataSearcher(String url){
