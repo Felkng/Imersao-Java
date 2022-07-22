@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Lipmon
+ * @author Felkng
  */
 public class ContentExtractor implements ExtratorDeConteudo {
    
@@ -28,9 +28,7 @@ public class ContentExtractor implements ExtratorDeConteudo {
         for(Map<String,String> atributos: listaDeAtributos){
             String titulo = atributos.get("title");
             String urlImagem = atributos.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
-            //String urlImagem = atributos.get("url");
-            String plus = atributos.get("ranking");
-            //String plus = atributos.get("explanation");
+            String plus = atributos.get("imDbRating");
             var conteudo = new Conteudo(titulo, urlImagem, plus);
             
             conteudos.add(conteudo);
