@@ -6,10 +6,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-/**
- *
- * @author Felkng
- */
 public class ContentExtractor implements ExtratorDeConteudo {
    
    public List<Conteudo> contentExtractor(String json){
