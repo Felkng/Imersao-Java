@@ -13,9 +13,8 @@ public class App {
         
         // FAZER UMA CONEXÃO HTTP E BUSCAR OS TOP 250 FILMES
         
-        //String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060"; //API IMDB 250 filmes
-        //String url = "https://api.nasa.gov/planetary/apod?api_key=fbdcduNITbu7sqRASLda8AgfVZbqox5kyh7ZygCv&start_date=2022-06-20&end_date=2022-07-20"; //API da nasa
-        String url = "http://localhost:8080/linguagens";
+        String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060"; //API IMDB 250 filmes
+        
         var http = new clientHTTP();
         String json = http.dataSearcher(url);
         
